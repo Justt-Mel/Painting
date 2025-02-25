@@ -96,19 +96,60 @@ label
 
 .frame
 {
-    margin: 25%;
-    height: 500px;
-    width: 1000px;
+    display: flex;
+    justify-content: center;
+    position: relative;
     background-color: burlywood;
     border: 8px groove goldenrod;
 }
 
 .head
 {
-    margin: 25%;
-    height: 50px;
-    width: 50px;
+    margin: 35%;
+    height: 200px;
+    width: 200px;
     color: brown;
     background-color: brown;
-    border: 2px solid;
+    border: 5px solid goldenrod;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+.rEye
+{
+    padding: 10px;
+    position: absolute;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background: goldenrod;
+    border-radius: 50%;
+    display: flex;
+}
+
+.rEye:before
+{
+    
+}
+.lEye
+{padding: 10px;
+    position: absolute;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background: goldenrod;
+    border-radius: 50%;
+    display: flex;
+}
+
+.lEye
+{
+    margin-top: 40px;
+    margin-left: -110px;
+}
+.rEye
+{
+    margin-top: 40px;
+    margin-left: 110px;
 }
