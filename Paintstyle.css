@@ -1,0 +1,114 @@
+body
+{
+    background-color: darkseagreen ;
+}
+
+.flex1
+{
+    margin: 33%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex2
+{
+    padding: 100px;
+    border: solid goldenrod;
+    border-style: outset;
+    background-color: darkcyan;
+    border-radius: 20px;
+    box-shadow: 3px 10px 15px rgb(41, 63, 71);
+}
+
+@media screen and (max-width:1000px)
+{
+   .flex1
+   {
+    margin: 33%;
+    display: flex;
+    justify-content: center;
+   }
+   body
+   {
+    background-color: salmon;
+   }
+
+}
+
+.Welcome
+{
+   padding-top: 0px;
+   padding-right: 15px;
+   padding-bottom: 3px;
+   text-align: right;
+   color: goldenrod;
+   text-shadow: 3px 10px 20px  rgb(42, 63, 71);
+   border: 4px groove goldenrod;
+   border-style: inset;
+   border-radius: 15px;
+   box-shadow: 3px 10px 15px rgb(41, 63, 71);
+ 
+}
+
+.myName
+{
+    padding-top: 5px;
+    padding-left: 15px;
+    margin-top: 0px;
+    text-align: left;
+
+}
+
+nav
+{
+    border-radius: 15px;
+    box-shadow: 0 0 20px goldenrod;
+    top: 0%;
+    width: auto;
+    text-align: center; 
+    background-color: rgb(41, 63, 71);
+}
+
+nav > a
+{
+    padding: 10px;
+    text-decoration: none;
+    color: darkseagreen;
+}
+
+input:hover
+{
+ transition: .5s;
+ color: goldenrod ;
+}
+
+.artIntro
+{
+    color: goldenrod;
+    text-align: center;
+}
+
+label
+{
+    color: rgb(176, 133, 23);
+}
+
+.frame
+{
+    margin: 25%;
+    height: 500px;
+    width: 1000px;
+    background-color: burlywood;
+    border: 8px groove goldenrod;
+}
+
+.head
+{
+    margin: 25%;
+    height: 50px;
+    width: 50px;
+    color: brown;
+    background-color: brown;
+    border: 2px solid;
+}
