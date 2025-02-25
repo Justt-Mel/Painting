@@ -102,7 +102,6 @@ label
     background-color: burlywood;
     border: 8px groove goldenrod;
 }
-
 .head
 {
     margin: 35%;
@@ -113,8 +112,53 @@ label
     border: 5px solid goldenrod;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    position: relative;
     display: flex;
     justify-content: center;
+    z-index: 1;
+}
+.antenna
+{
+    padding: 10px;
+    position: absolute;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background: rgb(57, 32, 218);
+    border-radius: 50%;
+    display: flex;
+    z-index: 1;
+    margin-top: 40px;
+    margin-left: 110px;
+}
+.lEar
+{  
+    margin-top: 15px;
+    margin-left: -240px;
+    height: 145px;
+    width: 30px;
+    position: absolute;
+    color: goldenrod;
+    background-color: goldenrod;
+    border: 5px solid brown;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    z-index: 2;
+}
+.rEar
+{
+    margin-top: 15px ;
+    margin-left: 230px;
+    height: 145px;
+    width: 30px;
+    position: absolute;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: goldenrod;
+    background-color: goldenrod;
+    border: 5px solid brown;
+    display: flex;
+    z-index: 2;
 }
 .rEye
 {
@@ -126,14 +170,13 @@ label
     background: goldenrod;
     border-radius: 50%;
     display: flex;
-}
-
-.rEye:before
-{
-    
+    z-index: 1;
+    margin-top: 40px;
+    margin-left: 110px;
 }
 .lEye
-{padding: 10px;
+{
+    padding: 10px;
     position: absolute;
     display: flex;
     width: 50px;
@@ -141,15 +184,63 @@ label
     background: goldenrod;
     border-radius: 50%;
     display: flex;
-}
-
-.lEye
-{
     margin-top: 40px;
     margin-left: -110px;
+    z-index: 0;
 }
-.rEye
+.Mouth
 {
-    margin-top: 40px;
-    margin-left: 110px;
+    padding: 10px;
+    position: absolute;
+    display: flex;
+    width: 150px;
+    height: 50px;
+    background: goldenrod;
+    display: flex;
+    margin-top: 120px;
+    margin-left: -2px;
+    z-index: 1;
+}
+.teeth1
+{
+    position: absolute;
+    display: flex;
+    width: 10px;
+    height: 60px;
+    background: whitesmoke;
+    display: flex;
+    z-index: 2;
+}
+.teeth2
+{
+    margin-left: 47px;
+    position: absolute;
+    display: flex;
+    width: 10px;
+    height: 60px;
+    background: whitesmoke;
+    display: flex;
+    z-index: 2;
+}
+.teeth3
+{
+    margin-left: 95px;
+    position: absolute;
+    display: flex;
+    width: 10px;
+    height: 60px;
+    background: whitesmoke;
+    display: flex;
+    z-index: 2;
+}
+.teeth4
+{
+    margin-left: 140px;
+    position: absolute;
+    display: flex;
+    width: 10px;
+    height: 60px;
+    background: whitesmoke;
+    display: flex;
+    z-index: 2;
 }
