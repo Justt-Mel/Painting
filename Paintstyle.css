@@ -21,7 +21,7 @@ body
     box-shadow: 3px 10px 15px rgb(41, 63, 71);
 }
 
-@media screen and (max-width:1000px)
+@media screen and (max-width:500px)
 {
    .flex1
    {
@@ -116,20 +116,6 @@ label
     display: flex;
     justify-content: center;
     z-index: 1;
-}
-.antenna
-{
-    padding: 10px;
-    position: absolute;
-    display: flex;
-    width: 50px;
-    height: 50px;
-    background: rgb(57, 32, 218);
-    border-radius: 50%;
-    display: flex;
-    z-index: 1;
-    margin-top: 40px;
-    margin-left: 110px;
 }
 .lEar
 {  
